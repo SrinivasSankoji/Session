@@ -1,0 +1,6 @@
+server:
+  port: 9303
+  
+spring:
+  application:
+    name: request-body-advice
