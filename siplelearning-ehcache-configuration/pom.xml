@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jio.ngo</groupId>
-	<artifactId>simplelearning-ehcache</artifactId>
+	<artifactId>siplelearning-ehcache-configuration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>simplelearning-ehcache</name>
+	<name>siplelearning-ehcache-configuration</name>
 	<description>Demo project for EhCache</description>
 
 	<properties>
@@ -33,8 +33,8 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
