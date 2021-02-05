@@ -10,8 +10,6 @@ import com.jio.ngo.connection.model.Student;
 public class ConnectionDaoImpl implements ConnectionDao
 {
 
-	
-	
 	@Override
 	public List<Student> findAll() 
 	{
